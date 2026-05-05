@@ -1,0 +1,22 @@
+Doc00. Descripción del proyecto — “Petronor Alerta”
+
+En este trabajo de fin de grado, propongo el diseño y la planificación de un proyecto denominado “Petronor alerta”, cuyo objetivo es definir una aplicación móvil orientada a alertar a la población del entorno de la refinería de Muskiz en caso de incidentes o emergencias.
+
+El inicio del proyecto es la necesidad de disponer de un canal rápido mediante el cual informar a la gente de alrededor de la refinería cuando se produzca un accidente así como unas recomendaciones para el mismo. 
+
+La idea central de “Petronor Alerta” es que cualquier persona pueda recibir avisos, por ello plantea una aplicación que no requerirá ni cuenta ni registro. La aplicación está pensada para Android e iOS y estará disponible en todos los idiomas existentes.
+
+En cuanto al alcance geográfico, la aplicación estará disponible para mostrar las alertas asociadas a la refinería de Muskiz. No obstante, está pensada para que en un futuro se puedan añadir otras refinerías y los usuario podrán activar las alertas de las que ellos quieran.
+
+Los niveles de alerta serán los oficiales de Petronor, incluidos en [Algún lado, con imagen incluso]. Dependiendo del nivel de alerta que necesitemos, en la aplicación saldrán los mensajes y recomendaciones necesarias. Estos niveles de alerta y recomendaciones se obtienen mediante una API que tiene Petronor para ello.
+
+Desde le punto de vista funcional, la idea teórica de la aplicación se centra en:
+Recepción de alertas en el teléfono y visualización del detalle dentro de la app.
+Consulta de recomendaciones, qué hacer y qué evitar.
+Estado informativo como parte del contenido mostrado al usuario.
+
+El sistema requiere conexión a internet para recibir y consultar alertas actualizadas. La posibilidad de ofrecer contenido limitado sin conexión (por ejemplo, recomendaciones genéricas) se considera una opción interesante, pero de momento lo trato como una mejora futura.
+
+(Diagrama: Ciudadania <-> App <-> Emisor(Petronor))
+
+Falta poner la imagen de los niveles de alerta
