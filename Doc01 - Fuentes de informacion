@@ -1,0 +1,18 @@
+FUENTES DE INFORMACIÓN
+
+En este documento listo las fuentes de información que utilizaré para obtener información sobre alertas a la población, notificaciones móviles y referencias para la planificación y seguimiento del proyecto. Estas fuentes me sirven como base para justificar el diseño del sistema, comparar alternativas y redactar recomendaciones de actuación.
+
+A continuación incluyo las fuentes que voy a utilizar:
+
+Ready.gov (FEMA): recomendaciones generales de autoprotección ante incidentes con sustancias peligrosas (para las recomendaciones en la app). 
+
+Android  – Notifications: conceptos y capacidades del canal de notificaciones en Android a nivel conceptual. Buenas prácticas de uso (canales, importancia, comportamiento esperado) para no generar alarmas innecesarias. 
+
+Apple Developer Documentation – UNNotificationResponse (UserNotifications): referencia conceptual sobre recepción e interacción del usuario con notificaciones en iOS.
+
+Alertswiss (app de alertas a población) – Esta aplicacion se puede usar como referencia de una app de alertas públicas con notificaciones y avisos por zonas.
+
+Ayuntamiento de Muskiz – web oficial: fuente para contextualizar territorio, localización y población/entorno del piloto. 
+
+SOS Deiak / 112 – web oficial: fuente para contextualizar el servicio de emergencias y canales oficiales en el entorno del proyecto.
+
