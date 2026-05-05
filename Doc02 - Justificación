@@ -1,0 +1,7 @@
+Justificación del proyecto
+
+He planteado “Petronor alerta” como respuesta a la necesidad de comunicar avisos e instrucciones de actuación a la población de Muskiz cuando se produzca un accidente o situación de emergencia. En este tipo de escenarios, tener una via rápida, clara y la posibilidad de que el aviso llegue a un gran número de personas en poco tiempo son factores muy importantes para tener a la población tranquila.
+
+Me he dado cuenta que, aunque haya distintos canales de información, no siempre se consigue hacer llegar el mensaje a todo el mundo. Por ello, justifico la elección de una aplicación móvil centrada en notificaciones y recomendaciones: el móvil es un dispositivo disponible por casi toda la población y permite mostrar un aviso breve y directo, acompañado de instrucciones concretas.
+
+El origen de este proyecto se basa en la detección de una necesidad: disponer de un canal específico y fácilmente accesible para la población de Muskiz y alrededores. La emisión de alertas se controlará desde el departamento de “Emisiones de mensajes cuando algo explote”, desde donde se gestionan los detalles de esta integración (API, mecanismos de publicación, formatos…). 
