@@ -1,0 +1,36 @@
+OBJETIVOS
+
+Objetivo general 
+El objetivo general es mejorar la comunicación de emergencias hacia la población, sobre todo del entorno de la refinería de Muskiz mediante una aplicación móvil pública que permita recibir avisos, consultar información y seguir recomendaciones de actuación de forma clara, consistente y en todos los idiomas existentes y por existir.
+
+Criterio de éxito: Cuando el sistema cubra, como mínimo, estos resultados: Alerta proactiva al ciudadanos, acceso al detalle con recomendaciones claras, consulta de histórico, avisos por niveles, soporte multilingüe con un mínimo de idiomas.
+
+Objetivo específico
+OE01. Definir el flujo de recepción de alertas
+He definido el comportamiento de la aplicación para que el usuario reciba avisos mediante notificaciones y puede abrir los detalles desde la notificación.
+Criterio de éxito: Existe un flujo descrito en 4-6 pasos (desde “ alerta emitida” hasta “usuario lee”) y se refleja en los wireframes.
+
+OE02. Definir el flujo de activación/desactivación de la recepción de alertas.
+He definido el mecanismo por el cual el usuario puede activar o desactivar la recepción de alertas desde la propia aplicación.
+Criterio de éxito: Tiene los estados “Activado/Desactivado” y se incluye el wireframe de al menos una pantalla.
+
+OE03. Definir estructura del aviso.
+He definido la plantilla del aviso para garantizar que el contenido sea claro.
+Criterio de éxito: La plantilla tiene al menos: Título, fecha/hora, nivel, descripción y recomendaciones.
+
+
+OE04. Niveles de alerta
+He definido los niveles de alerta y tienen cada uno su lista de criterios
+Criterio de éxito: Documentada una tabla con 3 niveles, con sus propósitos del aviso, tipo de recomendaciones y restricciones
+
+OE05. Histórico de alertas
+La aplicación tiene un historial de alertas consultable para poder consultar las alertas anteriores y ver sus detalles.
+Criterio de éxito: La información mínima mostrada en el listado seria (Titulo, nivel, fecha, boton detalles)
+
+OE06. Definir experiencia del usuario
+Wireframe de las pantallas del usuario, el flujo será: Activar/desactivar alertas, consultar historico, consultar detalles con las recomendaciones.
+Criterio de éxito: No se me ocurre 
+
+OE07. Multi-idioma
+La aplicación estará en diferentes idiomas ya que es una aplicacion de seguridad, cuantos más accesibilidad mejor.
+Criterio de éxito: Minimo de 4 idiomas(Castellano, Euskera, Inglés y Francés)
