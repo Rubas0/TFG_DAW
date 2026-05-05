@@ -1,0 +1,57 @@
+Alternativas y viabilidad técnica
+
+En el proyecto he analizado distintas alternativas para responder a esta necesidad de comunicar avisos a la población. He comparado alternativas con tres criterios: rapidez, coste y resultado(alcance del aviso, consistencia del mensaje, capacidad de incluir recomendaciones de actuación)
+
+El emisor de las alertas siempre será Petronor mediante su centro de control y todas las opciones serán accesibles sin cuenta/registro.
+
+Alternativas consideradas
+
+1- Aplicación móvil con notificaciones 
+
+Descripción: Aplicación móvil sin registro que muestra avisos mediante notificaciones y permite consultar los avisos con sus respectivas recomendaciones.
+Rapidez: Inmediata en el móvil, llega en cuanto se publica y la mayoría de gente suele tener el móvil a mano.
+Costes: Desarrollo y diseño para dos plataformas (Android/IOS),
+publicación en stores, mantenimiento y actualizaciones.
+Resultado: Permite alerta fácil (push) y muestra recomendaciones completas en una pantalla. 
+
+
+2- Web (portal informativo)
+Descripción: Web accesible desde cualquier dispositivo donde se publican avisos e instrucciones.
+Rapidez: Depende de que el usuario acceda a la web, no es una alerta proactiva.
+Costes: Desarrollo web, hosting, gestión de contenido/avisos
+Resultado: Útil para consulta del aviso y recomendaciones, pero no garantiza alerta inmediata porque depende de que el usuario entre.
+
+3- SMS masivo
+Descripción: Envío de un mensaje corto a móviles de la zona.
+Rapidez: Instantánea, llega rápido, aunque puede verse afectado por saturación y depende del operador.
+Costes: Contratación de un proveedor (coste por envío), permisos legales.
+Resultado: Alerta proactiva, pero limita la cantidad de instrucciones que se pueden mandar y no puedes poner recomendaciones.
+
+4- Canal físico (Sirenas)
+Descripción: Uso de sirenas u otros canales físicos para avisar.
+Rapidez: Muy alta para llamar la atención en el área.
+Costes: El coste que suponga la infraestructura física, tanto la instalación como el mantenimiento
+Resultado: Alerta muy rápida para llamar la atención, pero no comunica instrucciones, ni te dice que tipo de alerta es (tendrias que aprenderte los distintos tipos de alerta)
+
+
+Tras comparar alternativas, la aplicación móvil es la más completa:
+Alerta proactiva 
+Claridad y estructura del mensaje con recomendaciones dentro de la aplicación
+Posibilidad de consulta del aviso
+
+Las demás opciones tienen limitaciones importantes para transmitir tanto el mensaje, como recomendaciones.
+
+Viabilidad técnica
+
+En cuanto a la viabilidad, los siguientes puntos son los más relevantes:
+Emisión de las alertas controlada por Petronor, disponen de un departamento autorizado para ello.
+Panel interno usado por el personal autorizado para redactar y publicar el aviso.
+Integración mediante API REST, hay un backend que expone una API REST para:
+Publicar las alertas desde el panel interno
+Servir el contenido de las alertas a la aplicación pública
+Recepción de notificaciones y descarga del contenido, la app recibe una notificación push para avisar al usuario y, al abrirla, se descarga el contenido completo del aviso desde la API para mostrarlo en una pantalla más detallada.
+La aplicación requiere conexión a internet para recibir notificaciones y consultar el contenido del aviso.
+La aplicación no es para sustituir los canales oficiales de emergencias, sino para usarlo como canal de aviso y recomendaciones.
+
+Niveles de alerta
+
