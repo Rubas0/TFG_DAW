@@ -1,0 +1,118 @@
+ANÁLISIS DE RIESGOS 
+
+En este documento he identificado y gestionado los riesgos del proyecto. Entendiendo como un riesgo la posibilidad de pérdida, daño, deterioro, desventaja o destrucción al realizar las actividades programadas.
+
+He analizado los riesgos para tomar medidas preventivas que minimicen su impacto. He clasificado los riesgos y he valorado cada uno segun si probabilidad e impacto.
+
+He clasificado los riesgos en función de su naturaleza:
+Riesgos del proyecto
+Riesgos técnicos
+Riesgos del negocio
+Riesgos externos
+
+Riesgos del proyecto
+
+R-01 Retraso de los tiempos marcados.
+Causa principal: estimaciones optimistas, dependencias entre tareas e interrupciones.
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: he planificado por hitos, he añadido márgenes de tiempo y he priorizado el alcance “core” (alertas + detalle).
+Medidas correctivas/contingencia: planificar el cronograma y reducirel alcance no crítico en la primera versión.
+Responsable: Jefe de Proyecto (yo).
+
+
+
+
+
+R-02. Desviación de costes
+Causa principal: subestimación de horas de desarrollo/pruebas y costes de contratación.
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: he planteado un presupuesto por fases y un control semanal de avance vs coste.
+Medidas correctivas/contingencia: ajustaré alcance, ampliaré plazos o reforzaré puntualmente el equipo.
+Responsable: Jefe de Proyecto (yo).
+
+R-03. Dificultad para contratar perfiles adecuados
+Causa principal: falta de disponibilidad de desarrolladores móvil/backend/QA en el momento del proyecto.
+Probabilidad: Media
+Impacto: Medio
+Medidas preventivas: he definido perfiles desde el inicio y abriré contratación temprana.
+Medidas correctivas/contingencia: subcontrataré parcialmente o replanificaré.
+Responsable: Jefe de Proyecto (yo).
+
+R-04. Cambios de alcance
+Causa principal: aparición de nuevas peticiones durante el desarrollo.
+Probabilidad: Media
+Impacto: Medio
+Medidas preventivas: he definido alcance y estableceré control formal de cambios y priorización.
+Medidas correctivas/contingencia: hacer distintas versiones de la aplicación y renegociar plazos/coste si procede.
+Responsable: Jefe de Proyecto (yo).
+
+
+
+
+
+Riesgos técnicos
+
+R-05 Notificaciones push no funcionan correctamente
+
+Causa principal: permisos desactivados, ahorro de batería, “No molestar”, conectividad e incidencias del proveedor push.
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: he definido que el diseño incluya un flujo claro de permisos y estados; se planificarán pruebas en Android+iOS y monitorización.
+Medidas correctivas/contingencia: se preguntará de forma clara si quieres activar/desactivar las notificaciones asi como poder hacerlo de forma sencilla una vez estás dentro de la app.
+Responsable: Líder móvil (a contratar).
+
+R-06 Caídas o lentitud del backend/API
+Causa principal: infraestructura insuficiente o mala configuración.
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: se diseñará con monitorización, logs y escalabilidad y se realizarán pruebas carga.
+Medidas correctivas/contingencia: se habilitará modo degradado, escalado y rollback (No se lo que significa pero suena muy bien).
+Responsable: Líder backend (a contratar).
+
+R-07 Vulnerabilidades del sistema
+Causa principal: endpoints expuestos, falta de rate limiting .
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: revisión de seguridad, rate limiting, logging.
+Medidas correctivas/contingencia: parche urgente, rotación de claves y bloqueo de abuso.
+Responsable: Responsable de seguridad (a contratar).
+
+
+
+R-08 Experiencia y navegación confusa
+Causa principal: exceso de texto, navegación no intuitiva.
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: wireframes, revisión heurística y priorizar claridad.
+Medidas correctivas/contingencia: simplificar pantallas y flujos e iterar wireframes.
+Responsable: UX (a contratar) + yo.
+
+Riesgos del negocio
+
+R-09 Desconfianza, baja adopción 
+Causa principal: falta de comunicación o percepción de “app no oficial”.
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: plan de comunicación e identidad clara del emisor.
+Medidas correctivas/contingencia: campañas informativas y mejoras de credibilidad.
+Responsable: Responsable de comunicación (a contratar).
+
+Riesgos externos 
+
+R-10 Dependencia del emisor (Petronor)
+Causa principal: tiempos internos, disponibilidad del panel emisor y coordinación.
+Probabilidad: Media
+Impacto: Alto
+Medidas preventivas: he definido proceso base de emisión (un responsable autorizado) y criterios mínimos de aviso.
+Medidas correctivas/contingencia: replanificación y escalado con interlocutores.
+Responsable: Jefe de Proyecto (yo) + interlocutor Petronor.
+
+
+Gestión y seguimiento de riesgos
+
+Haré un seguimiento de riesgos continuo durante el proyecto:
+Revisión semanal de riesgos
+Actualizarlos si cambias las condiciones
+Añadir riesgos nuevos o cerrar los que dejen de ser aplicables
