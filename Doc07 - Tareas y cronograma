@@ -1,0 +1,48 @@
+TAREAS Y CRONOGRAMA
+
+En este apartado he establecido la secuenciación y los tiempos de las actividades necesarias para el desarrollo de la aplicación. 
+
+He definido una planificación con una duración total de 10 semanas usando un enfoque por hitos.
+
+Equipo de trabajo (Roles)
+
+El proyecto requerirá de 4 personas que trabajarán simultáneamente:
+
+PM: Jefe de Proyecto / Analista Funcional (Mi rol).
+UX/UI: Diseñador de interfaces y experiencia de usuario.
+BACK: Desarrollador Backend e infraestructura.
+MOB: Desarrollador Móvil (Android e iOS).
+
+Fases y desglose de tareas
+
+Fase 1: Análisis y requisitos (Semana 1)
+Fase inicial para definir la arquitectura técnica y recopilar información.
+
+F1.1. Definición de la arquitectura técnica: Cierre de especificaciones sobre la comunicación entre la API y la app. (Responsables PM y BACK)
+F1.2. Recopilación de protocolos y textos: 
+
+Fase 2: Diseño UX/UI (Semanas 2 a 3)
+Fase dedicada a la concepción visual de la aplicación.
+F2.1. Wireframes y mapa de navegación: Creación de los esquemas de las pantallas ( Ajustes, Histórico, Detalles) (Responsable: UX/UI)
+F2.2. Diseño visual: Decisión de colores, iconografía y tipografía.(Responsable: UX/UI)
+F2.3. Validación del diseño: Aprobación de las interfaces por parte del cliente (Responsable: PM)
+
+Fase 3: Desarrollo Backend y API (Semanas 3 a 6)
+Fase troncal de infraestructura donde se prepara el servidor para enviar las alertas masivas. Comienza en cuanto se defina la arquitectura.
+F3.1 Configuración de infraestructura: Despliegue de servidores con auto-escalado y CDN. (Responsable: BACK)
+F3.2 Desarrollo de la API REST: Creación de los endpoints públicos para la consulta del contenido. (Responsable: BACK)
+F3.3 Integración de servicios Push: Conexión del backend con los servicios de Apple (APNs) y Google (FCM) (Responsable: BACK)
+
+
+Fase 4: Desarrollo Móvil iOS y Android (Semanas 4 a 8)
+Fase de programación de las aplicaciones. Arranca en paralelo al backend en cuanto el diseño visual esté aprobado.
+F4.1 Maquetación de vistas: Programación de las interfaces. (Responsable MOB)
+F4.2 Lógica local: Implementación del guardado de ajustes de notificaciones y el almacenamiento offline del histórico. (Responsable: MOB)
+F4.3 Conexión a la API y notificaciones: Integración del código necesario para “despertar” la app al recibir un Push en segundo plano. (Responsable: MOB)
+
+Fase 5: Pruebas (QA) y Despliegue (Semanas 9 a 10)
+Recta final destinada a asegurar la calidad del producto y su publicación al ciudadano.
+F5.1 Pruebas de concurrencia: Simulación de picos de peticiones simultáneas contra el backend. (Responsable BACK y PM)
+F5.2 Pruebas en dispositivos fisicos: Testeo de las notificaciones simulando estados de ahorro de batería en Android e iOS. (Responsable: MOB y PM)
+F5.3 Trámites en App Stores: Subida de las aplicaciones a Google Play y Apple App Store (Responsable: PM)
+F5.4 Paso a producción: Encendido oficial de la infraestructura y entrega del proyecto (Responsables: PM y BACK)
