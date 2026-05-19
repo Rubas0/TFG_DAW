@@ -55,3 +55,4 @@ La aplicación no es para sustituir los canales oficiales de emergencias, sino p
 
 Niveles de alerta
 
+La aplicación es técnicamente viable para mapear la categorización oficial de emergencias (Niveles 0, 1, 2 y 3). La API suministrará un código de estado que la aplicación interpretará para mostrar distintos colores (ej. amarillo para Nivel 1, rojo para Nivel 3) e iconos, estructurando visualmente la gravedad del incidente según los protocolos SEVESO.
