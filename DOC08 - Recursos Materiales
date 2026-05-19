@@ -1,0 +1,53 @@
+RECURSOS HUMANOS Y MATERIALES 
+
+En este documento he definido los medios de producción y los perfiles de trabajadores necesarios para llevar a cabo el desarrollo de la aplicación “Petronor Alerta” en el plazo estimado de 10 semanas.
+
+1. Recursos Humanos (Perfiles competenciales)
+He estructurado el equipo de trabajo en cuatro perfiles específicos, asegurando que cada fase del proyecto cuenta con un especialista:
+
+Jefe de Proyecto / Analista Funcional (PM):
+Competencias: Capacidad de gestión ágil, análisis de requisitos, negociación y control de riesgos.
+Funciones: Definición de la arquitectura junto al equipo técnico, hablar con el cliente (Petronor), control del cronograma, gestión de subida a los App Stores y supervisión de las pruebas de calidad (QA).
+
+Diseñador UX/UI (UX/UI):
+Competencias: Dominio de herramientas de diseño, conocimientos sólidos en accesibilidad visual e interfaces móviles.
+Funciones: Elaboración del mapa de navegación, creación de wireframes, diseño visual final y exportación de assets para los desarrolladores.
+
+Desarrollador Backend (BACK):
+Competencias: Experiencia en despliegue de infraestructura Cloud, creación de APIs REST y bases de datos.
+Funciones: Configurar los servidores, programar los endpoints, e integrar los servicios de notificaciones (APNs de Apple y FCM de Google).
+
+Desarrollador Móvil (MOB):
+Competencias: Programación nativa o multiplataforma orientada a componentes móviles, experiencia en procesos en segundo plano (background services).
+Funciones: Maquetar las pantallas en Android e iOS, programar la lógica local (guardado de ajustes/histórico) y conectar la app con la API y los servicios Push.
+
+2. Recursos Materiales y Medios de Producción
+Para garantizar el correcto desarrollo tecnológico, he definido los siguientes medios de producción basados en los estándares de mercado actuales:
+
+Equipos informáticos (Hardware)
+
+Estaciones de trabajo (Apple MacBook Pro): Requisito técnico indispensable. Para compilar, firmar y probar la aplicación en iOS, el desarrollador móvil y el Jefe de Proyecto requieren el sistema operativo macOS. El resto del equipo también utilizará estos equipos para mantener la estandarización técnica.
+
+Dispositivos físicos de prueba: Se requiere al menos un móvil con Android (gama media) y otro con iOS (iPhone) para realizar las pruebas de comportamiento de batería y recepción de notificaciones push.
+
+Licencias y Software
+
+Figma: Licencia mensual para el diseñador UX/UI, necesaria para el diseño colaborativo de interfaces y la entrega de recursos al desarrollador.
+
+IDEs de desarrollo: Entornos de desarrollo gratuitos como Android Studio, Xcode y Visual Studio Code.
+
+Herramienta de gestión (Trello): Software para el seguimiento del cronograma, asignación de tareas del equipo y control de errores (bugs).
+
+Infraestructura y Cloud (Backend)
+
+Servicios Cloud (AWS o Google Cloud): Entorno de alojamiento para el servidor y la API, requiriendo CDN para soportar la carga de usuarios.
+
+Cuentas de Desarrollador Oficiales
+
+Apple Developer Program: Suscripción anual obligatoria (aprox. 99€/año) para acceder a los certificados de notificaciones push (APNs) y publicar en la App Store.
+
+Google Play Console: Pago único (aprox. 25€) para la cuenta de publicación en Android.
+
+Suministros e Instalaciones
+
+Se trabajará en oficina, lo que incluye los suministros básicos de electricidad, climatización y una conexión a internet de fibra óptica, indispensable para la carga/descarga constante de compilaciones y la gestión de servidores en la nube, este espacio nos lo proporcionará petronor en las oficinas de la refinería.
