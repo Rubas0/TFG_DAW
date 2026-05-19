@@ -1,0 +1,113 @@
+PRESUPUESTO
+
+En este documento he calculado el presupuesto necesario para ejecutar el proyecto “Petronor alerta” en 10 semanas, aplicando tarifas estándar de mercado y teniendo en cuenta el coste de recursos y licencias.
+
+1.Coste del personal
+
+Duración: 10 semanas (50 días laborables)
+Jornada laboral: 8 horas al día
+Equipo: 
+Jefe de proyecto (PM): 25 €/h. 25% dedicación(100h).
+Diseñador UX/UI: 18 €/h. 30% dedicación(120h).
+Desarrollador Backend: 22€/h. 100% dedicación(400h).
+Desarrollador Móvil: 22€/h. 100% dedicación(400h).
+
+Tabla de cálculo de salarios BRUTOS
+
+Rol
+Tarifa €/hora
+Horas totales
+Total (€)
+Jefe de Proyecto
+25€
+100
+2.500€
+Diseñador UX/UI
+18€
+120
+2.160€
+Desarrollador Backend
+22€
+400
+8.800€
+Desarrollador Móvil
+22€
+400
+8.800€
+Total personal
+
+
+
+
+22.260€
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.Costes de licencias, hardware e infraestructura 
+
+
+Concepto
+Coste unidad (€)
+Unidades
+Total (€)
+MacBook Pro (alquiler/uso 10 sem)
+€500
+2
+€1.000
+iPhone de pruebas (alquiler)
+€200
+1
+€200
+Android test (alquiler)
+€100
+1
+€100
+Licencia Figma (2 meses)
+€25/mes
+2
+€50
+Apple Developer Program (anual)
+€99
+1
+€99
+Google Play Console (pago único)
+€25
+1
+€25
+Infraestructura Cloud (AWS/Google)
+€100/mes
+3
+€300
+Lugar de trabajo
+€0
+1
+€0
+Total licencias y hardware
+
+
+
+
+1.774€
+
+
+
+3.Costes  total estimado del proyecto
+Personal: 22.260€
+Licencias, hardware e infraestructura: 1.774€
+
+Presupuesto total estimado:
+
+24.034€
