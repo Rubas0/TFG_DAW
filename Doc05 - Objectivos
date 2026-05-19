@@ -21,7 +21,7 @@ Criterio de éxito: La vista de detalle del aviso incluirá obligatoriamente los
 
 OE04. Niveles de alerta.
 He definido los niveles de alerta según su gravedad para que el usuario sea capaz de identificar el riesgo y restricciones con un simple vistazo.
-Criterio de éxito: Quedará documentada una tabla con colores, propósitos y recomendaciones en 3 niveles de emergencia.
+Criterio de éxito: Quedará documentada una tabla con colores, propósitos y recomendaciones en los 4 niveles de emergencia.
 
 OE05. Histórico de alertas.
 He definido que el usuario pueda consultar los avisos anteriores.
