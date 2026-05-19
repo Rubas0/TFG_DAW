@@ -8,7 +8,7 @@ La idea central de “Petronor Alerta” es que cualquier persona pueda recibir 
 
 En cuanto al alcance geográfico, la aplicación estará disponible para mostrar las alertas asociadas a la refinería de Muskiz. No obstante, está pensada para que en un futuro se puedan añadir otras refinerías y los usuario podrán activar las alertas de las que ellos quieran.
 
-Los niveles de alerta serán los oficiales de Petronor, incluidos en [Algún lado, con imagen incluso]. Dependiendo del nivel de alerta que necesitemos, en la aplicación saldrán los mensajes y recomendaciones necesarias. Estos niveles de alerta y recomendaciones se obtienen mediante una API que tiene Petronor para ello.
+Los niveles de alerta integrados en la aplicación se basarán en los definidos por la normativa SEVESO y los planes de emergencia (PEI y PEE) de Petronor. Concretamente, la aplicación manejará los 4 niveles operativos: Prealerta Nivel 0 (Conato), Alerta Nivel 1 (Emergencia Local), Alerta Nivel 2 (Emergencia Grave) y Alerta Nivel 3 (Emergencia Muy Grave). Dependiendo del nivel de alerta que necesitemos, en la aplicación saldrán los mensajes y recomendaciones necesarias. Estos niveles de alerta y recomendaciones se obtienen mediante una API que tiene Petronor para ello.
 
 Desde le punto de vista funcional, la idea teórica de la aplicación se centra en:
 Recepción de alertas en el teléfono y visualización del detalle dentro de la app.
