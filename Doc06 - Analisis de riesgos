@@ -17,8 +17,8 @@ Causa principal: estimaciones optimistas, dependencias entre tareas e interrupci
 Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: he planificado por hitos, he añadido márgenes de tiempo y he priorizado el alcance “core” (alertas + detalle).
-Medidas correctivas/contingencia: planificar el cronograma y reducirel alcance no crítico en la primera versión.
-Responsable: Jefe de Proyecto (yo).
+Medidas correctivas/contingencia: planificar el cronograma y reducir el alcance en la primera versión.
+Responsable: Jefe de Proyecto.
 
 
 
@@ -30,7 +30,7 @@ Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: he planteado un presupuesto por fases y un control semanal de avance vs coste.
 Medidas correctivas/contingencia: ajustaré alcance, ampliaré plazos o reforzaré puntualmente el equipo.
-Responsable: Jefe de Proyecto (yo).
+Responsable: Jefe de Proyecto.
 
 R-03. Dificultad para contratar perfiles adecuados
 Causa principal: falta de disponibilidad de desarrolladores móvil/backend/QA en el momento del proyecto.
@@ -38,7 +38,7 @@ Probabilidad: Media
 Impacto: Medio
 Medidas preventivas: he definido perfiles desde el inicio y abriré contratación temprana.
 Medidas correctivas/contingencia: subcontrataré parcialmente o replanificaré.
-Responsable: Jefe de Proyecto (yo).
+Responsable: Jefe de Proyecto.
 
 R-04. Cambios de alcance
 Causa principal: aparición de nuevas peticiones durante el desarrollo.
@@ -46,7 +46,7 @@ Probabilidad: Media
 Impacto: Medio
 Medidas preventivas: he definido alcance y estableceré control formal de cambios y priorización.
 Medidas correctivas/contingencia: hacer distintas versiones de la aplicación y renegociar plazos/coste si procede.
-Responsable: Jefe de Proyecto (yo).
+Responsable: Jefe de Proyecto.
 
 
 
@@ -61,15 +61,15 @@ Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: he definido que el diseño incluya un flujo claro de permisos y estados; se planificarán pruebas en Android+iOS y monitorización.
 Medidas correctivas/contingencia: se preguntará de forma clara si quieres activar/desactivar las notificaciones asi como poder hacerlo de forma sencilla una vez estás dentro de la app.
-Responsable: Líder móvil (a contratar).
+Responsable: Móvil.
 
 R-06 Caídas o lentitud del backend/API
 Causa principal: infraestructura insuficiente o mala configuración.
 Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: se diseñará con monitorización, logs y escalabilidad y se realizarán pruebas carga.
-Medidas correctivas/contingencia: se habilitará modo degradado, escalado y rollback (No se lo que significa pero suena muy bien).
-Responsable: Líder backend (a contratar).
+Medidas correctivas/contingencia: se habilitará modo degradado, escalado y rollback.
+Responsable: Backend.
 
 R-07 Vulnerabilidades del sistema
 Causa principal: endpoints expuestos, falta de rate limiting .
@@ -77,7 +77,7 @@ Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: revisión de seguridad, rate limiting, logging.
 Medidas correctivas/contingencia: parche urgente, rotación de claves y bloqueo de abuso.
-Responsable: Responsable de seguridad (a contratar).
+Responsable: Backend.
 
 
 
@@ -87,7 +87,7 @@ Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: wireframes, revisión heurística y priorizar claridad.
 Medidas correctivas/contingencia: simplificar pantallas y flujos e iterar wireframes.
-Responsable: UX (a contratar) + yo.
+Responsable: UX + Jefe de proyecto.
 
 Riesgos del negocio
 
@@ -97,7 +97,7 @@ Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: plan de comunicación e identidad clara del emisor.
 Medidas correctivas/contingencia: campañas informativas y mejoras de credibilidad.
-Responsable: Responsable de comunicación (a contratar).
+Responsable: Jefe de Proyecto.
 
 Riesgos externos 
 
@@ -107,7 +107,7 @@ Probabilidad: Media
 Impacto: Alto
 Medidas preventivas: he definido proceso base de emisión (un responsable autorizado) y criterios mínimos de aviso.
 Medidas correctivas/contingencia: replanificación y escalado con interlocutores.
-Responsable: Jefe de Proyecto (yo) + interlocutor Petronor.
+Responsable: Jefe de Proyecto + interlocutor Petronor.
 
 
 Gestión y seguimiento de riesgos
