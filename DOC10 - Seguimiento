@@ -41,7 +41,7 @@ He establecido una reunión quincenal con el interlocutor designado por Petronor
 En estas reuniones revisaré:
 
 Entregables completados (diseños aprobados, especificación de API, flujo de notificaciones, etc.).
-Validación de la matriz de niveles [NIVEL_1], [NIVEL_2], [NIVEL_3] y textos oficiales (pendiente de validar).
+Validación de los niveles operativos (Prealerta/Alerta Nivel 0, Alerta Nivel 1, Alerta Nivel 2 y Alerta Nivel 3).
 Solicitudes de cambio: cualquier petición nueva quedará registrada y priorizada mediante control de cambios.
 Participantes: PM (yo) + interlocutor de Petronor + perfiles técnicos puntuales si procede (BACK o UX/UI).
 
