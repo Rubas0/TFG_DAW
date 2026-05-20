@@ -1,0 +1,83 @@
+Seguimiento
+
+En este documento he definido cómo se realizará el seguimiento del proyecto. El objetivo es disponer de un control continuo sobre el avance real frente al cronograma, detectar desviaciones a tiempo y aplicar medidas correctivas antes de que afecten al plazo total de 10 semanas.
+
+He planteado el seguimiento como una evaluación constante basada en: (1) reuniones periódicas, (2) hitos de control, (3) gestión visual del trabajo en un tablero y (4) control de riesgos.
+
+1. Herramienta de seguimiento y registro
+
+Para centralizar el estado del proyecto utilizaré Trello como herramienta de gestión visual del trabajo, ya que permite un seguimiento sencillo por tareas, responsables y fechas.
+
+He organizado el tablero con listas orientadas al flujo de trabajo:
+
+Backlog: tareas identificadas pero no iniciadas.
+To Do (Semana en curso): tareas planificadas para la semana actual.
+In Progress: tareas en ejecución.
+En revisión (QA/Validación): tareas finalizadas pendientes de validación técnica o funcional.
+Done: tareas completadas y aceptadas.
+Cada tarjeta de Trello incluirá como mínimo:
+
+Identificador de tarea (ej. T3.2, T4.1, etc. según Doc07).
+Descripción clara del entregable.
+Responsable (PM, UX/UI, BACK, MOB).
+Fecha objetivo.
+Checklist de aceptación (criterios mínimos para considerarla completada).
+Enlaces/adjuntos (wireframes, documentación técnica, evidencias de pruebas, etc.).
+2. Cadencia de reuniones
+
+2.1. Reunión interna semanal (equipo)
+He definido una reunión interna semanal (duración estimada: 45–60 minutos) con los cuatro roles del proyecto para:
+
+Revisar el estado de las tareas de la semana anterior.
+Confirmar bloqueos (impediments) y dependencias entre BACK y MOB.
+Ajustar la planificación semanal en Trello.
+Revisar la evolución de los riesgos del Doc06 (añadir, cerrar o recalcular probabilidad/impacto).
+Participantes: PM, UX/UI, BACK, MOB.
+Responsable de convocar y registrar acuerdos: PM (yo).
+
+2.2. Reunión con el cliente (Petronor) quincenal
+He establecido una reunión quincenal con el interlocutor designado por Petronor (duración estimada: 45–60 minutos) para validar que el avance se ajusta a lo esperado y evitar cambios de alcance no controlados.
+
+En estas reuniones revisaré:
+
+Entregables completados (diseños aprobados, especificación de API, flujo de notificaciones, etc.).
+Validación de la matriz de niveles [NIVEL_1], [NIVEL_2], [NIVEL_3] y textos oficiales (pendiente de validar).
+Solicitudes de cambio: cualquier petición nueva quedará registrada y priorizada mediante control de cambios.
+Participantes: PM (yo) + interlocutor de Petronor + perfiles técnicos puntuales si procede (BACK o UX/UI).
+
+3. Hitos y puntos de control (10 semanas)
+
+He definido hitos de control para verificar el avance del cronograma (Doc07). Consideraré que un hito está cumplido cuando sus entregables estén validados y marcados como “Done” en Trello.
+
+Hito H1 (fin Semana 1): Arquitectura técnica acordada + requisitos mínimos cerrados.
+Hito H2 (fin Semana 3): Wireframes y diseño UX/UI aprobados.
+Hito H3 (fin Semana 6): API REST operativa + integración base con servicios Push (APNs/FCM) preparada.
+Hito H4 (fin Semana 8): App móvil con pantallas principales implementadas + consumo de API + flujo de push integrado en entorno de pruebas.
+Hito H5 (fin Semana 10): Pruebas completadas + preparación de publicación en stores + paso a producción.
+(Nota: los detalles de textos oficiales, nomenclatura de niveles y documentación legal asociada a la publicación en stores quedarán marcados como “pendiente de validar” hasta confirmación del emisor.)
+
+4. Control de calidad durante el seguimiento
+
+Para no dejar la calidad únicamente al final del proyecto, he definido un control continuo:
+
+Revisión funcional de entregables (PM) antes de pasar una tarea a “En revisión”.
+Revisión técnica interna (BACK/MOB) para validar integraciones y coherencia con la arquitectura.
+Registro de incidencias en Trello (tarjetas tipo “Bug”) con severidad (Alta/Media/Baja) y fecha objetivo.
+
+5. Seguimiento y actualización de riesgos
+
+He establecido que el análisis de riesgos es un documento vivo. En cada reunión semanal:
+
+Revisaré los riesgos activos (probabilidad/impacto).
+Registraré medidas aplicadas y su efectividad.
+Añadiré nuevos riesgos si aparecen condiciones no previstas (por ejemplo, cambios de políticas de publicación en App Store/Google Play).
+Cerraré riesgos que dejen de ser aplicables.
+
+6. Criterios de cierre del proyecto
+
+Consideraré el proyecto finalizado cuando:
+
+Los hitos H1–H5 estén completados.
+Se hayan resuelto los bloqueos críticos identificados.
+La app sea capaz de: recibir una alerta push, abrir el detalle, mostrar recomendaciones, ofrecer histórico, permitir activar/desactivar notificaciones localmente y operar en los 4 idiomas definidos.
+El estado final del tablero Trello muestre todas las tareas planificadas como “Done” o, si existen tareas fuera de alcance, queden documentadas como “pospuestas” con su justificación.
