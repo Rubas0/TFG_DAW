@@ -19,7 +19,7 @@ Fase 1: Análisis y requisitos (Semana 1)
 Fase inicial para definir la arquitectura técnica y recopilar información.
 
 F1.1. Definición de la arquitectura técnica: Cierre de especificaciones sobre la comunicación entre la API y la app. (Responsables PM y BACK)
-F1.2. Recopilación de protocolos y textos: 
+F1.2. Recopilación de protocolos y textos: recopilación de la definición operativa de los niveles (Prealerta/Alerta Nivel 0, Alerta Nivel 1, Alerta Nivel 2 y Alerta Nivel 3) y de los textos/recomendaciones que se mostrarán al ciudadano por cada nivel. (Responsable: PM, con apoyo de petronor)
 
 Fase 2: Diseño UX/UI (Semanas 2 a 3)
 Fase dedicada a la concepción visual de la aplicación.
